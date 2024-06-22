@@ -197,7 +197,7 @@ export default function Donate() {
                       className="form-control"
                       onChange={onChangeValue}
                       value={donation}
-                      placeholder="Valor da Doação"
+                      placeholder="Donation amount"
                     />
                     <span className="input-group-text">ETH</span>
                     <button className="btn btn-custom" onClick={btnDonateClick}>
