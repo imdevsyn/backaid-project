@@ -10,6 +10,8 @@ export default function Withdraw() {
   const [campaign, setCampaign] = useState(null);
   const [message, setMessage] = useState("");
 
+  campaignId = campaignId - 1;
+
   function btnSearchClick() {
     setMessage("Searching...");
 
