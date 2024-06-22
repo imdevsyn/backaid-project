@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Introduction
 
-## Getting Started
+###  The Story Behind Backaid
+The idea for Backaid emerged from observing the struggles faced by individuals and communities worldwide. Whether it's families grappling with unexpected crises, animals in need of rescue, or communities striving to rebuild after disasters, the common thread is a need for timely, effective assistance. Traditional avenues of support often fall short, leaving gaps that compassionate individuals want to fill but don’t always know how.
 
-First, run the development server:
+### A Platform for Everyone
+Backaid was designed with the belief that everyone, regardless of their situation, deserves a chance to receive help and the opportunity to live with dignity and hope. We envisioned a platform that is not just a fundraising tool but a beacon of hope where people can come together, share their stories, and rally support from around the globe.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Empowering Individuals to Make a Difference
+We believe that generosity should not be constrained by geographic boundaries or bureaucratic hurdles. Backaid allows anyone with a cause, no matter how big or small, to create a campaign and connect with a community eager to help. Our mission is to empower individuals to make a tangible difference in the lives of others, fostering a sense of global responsibility and shared humanity.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## How To
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Create a campaign
 
-## Learn More
+First, go to the home page and than connect your wallet.
 
-To learn more about Next.js, take a look at the following resources:
+![alt text](image.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Select the option to Create new campaign.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![alt text](image-1.png)
 
-## Deploy on Vercel
+Insert all the information about your cause and then confirm in your wallet. Now share your campaign ID with your friends. 
+You can only create one campaign at a time.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+REMINDER: video url must be embed.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![alt text](image-2.png)
+
+### Donate
+Search by your prefered campaign ID or choose one from the active campaign list.
+
+![alt text](image-3.png)
+
+### Close campaign
+
+Search by the campaign ID that you created and then withdraw funds.
+
+![alt text](image-4.png)
+
+
+### WARNING
+Backaid smart contract was originally deployed on Base Testnet, so be very carefully while using the dapp. Also, remenber that we are still testing things.
+
+
+
+
