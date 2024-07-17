@@ -23,7 +23,7 @@ export default function Create() {
       .then((tx) => getLastCampaignId())
       .then((id) =>
         setMessage(
-          `Campaign ID ${id}.\n
+          `Campaign ID ${Number(id)}.\n
           REMINDER: You can only create one campaign at a time.`
         )
       )
