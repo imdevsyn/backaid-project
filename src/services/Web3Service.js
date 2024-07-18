@@ -24,8 +24,8 @@ async function ensureTestnet() {
             params: [
               {
                 chainId: TESTNET_CHAIN_ID,
-                chainName: "Base Test Network",
-                rpcUrls: ["https://base.infura.io/v3/YOUR_INFURA_PROJECT_ID"],
+                chainName: "Base Sepolia Testnet",
+                rpcUrls: ["https://sepolia.base.org"],
                 nativeCurrency: {
                   name: "Base ETH",
                   symbol: "ETH",
@@ -46,8 +46,6 @@ async function ensureTestnet() {
 }
 
 export async function Connect() {
-  await ensureTestnet();
-
   const web3 = new Web3(window.ethereum);
   const accounts = await web3.eth.requestAccounts();
 
@@ -56,6 +54,8 @@ export async function Connect() {
   }
 
   localStorage.setItem("wallet", accounts[0]);
+
+  await ensureTestnet();
 
   return accounts[0];
 }
